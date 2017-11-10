@@ -6,16 +6,16 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
 const App = () => (
-    <MuiThemeProvider>
+  <MuiThemeProvider>
 
-        <div>
-            <Header />
-            {/* <Main langsetting={localStorage.getItem('currentLanguage')}/> */}
-            <Main />
+    <div>
+         <Header />  
+        {/* <Main langsetting={localStorage.getItem('currentLanguage')}/> */}
+        <Main />
+        
+    </div>
 
-        </div>
-
-    </MuiThemeProvider>
+  </MuiThemeProvider>
 
 )
 

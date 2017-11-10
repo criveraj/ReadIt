@@ -2,7 +2,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const config = require('./config');
-const mongoose = require("mongoose");
 
 // connect to the database and load models
 require('./server/models').connect(config.dbUri);
@@ -37,5 +36,5 @@ app.use('/api', apiRoutes);
 
 // start the server
 app.listen(8080, () => {
-    console.log('Server is running on http://localhost:8080 or http://127.0.0.1:8080');
+  console.log('Server is running on http://localhost:8080 or http://127.0.0.1:8080');
 });

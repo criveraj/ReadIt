@@ -6,9 +6,8 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import { BrowserRouter } from 'react-router-dom'
 import App from './components/start.jsx';
 
-
 ReactDom.render((
     <BrowserRouter>
-        <App />
+      <App />
     </BrowserRouter>
 ), document.getElementById('react-app'));
