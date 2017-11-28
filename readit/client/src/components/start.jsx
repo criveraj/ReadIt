@@ -10,7 +10,7 @@ const App = () => (
 
     <div>
          <Header />  
-        {/* <Main langsetting={localStorage.getItem('currentLanguage')}/> */}
+        {}
         <Main />
         
     </div>

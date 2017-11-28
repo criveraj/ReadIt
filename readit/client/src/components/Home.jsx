@@ -77,11 +77,4 @@ class Home extends React.Component {
 
 }
 
-Home.propTypes = {
-  cardtitleP: PropTypes.string.isRequired,
-  cardsubtitleP: PropTypes.string.isRequired
-};
-
-
-
 export default Home;

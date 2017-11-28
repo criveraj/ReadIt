@@ -24,11 +24,10 @@ class Main extends React.Component {
     var title = localStorage.getItem('currentGreeting') == 'Website title';
     var subtitle = localStorage.getItem('currentLanguage') == 'Eng' ? 
     'This is the home page.':
-    '这里是主页，请登录查看更多内容';
+    'This is the home page';
     // console.log();
 
-    // let homeRoute = <Home cardtitleP={localStorage.getItem('currentLanguage')} cardsubtitleP={localStorage.getItem('currentLanguage')}/>;
-    // let homeRoute = <Route exact path='/' render={() => <Home cardtitleP={localStorage.getItem('currentLanguage')} cardsubtitleP={localStorage.getItem('currentLanguage')}/>}/>;   
+    
 
     return (
           <main>
@@ -36,7 +35,7 @@ class Main extends React.Component {
             <Switch>
                  {/* <Route exact path='/' component={Home}/>    */}
               {/* <Route exact path='/' render={() => <Home cardtitleP="Website Title" cardsubtitleP="This is the home page. Log in to see the hidden content"/>}/> */}
-                  <Route exact path='/' render={() => <Home cardtitleP={title} cardsubtitleP={subtitle}/>}/>    
+                  <Route exact path='/' render={() => <Home cardtitleP='{title} cardsubtitleP={subtitle}'/>}/>    
                 {/* <Route exact path='/' render={renderTarget}/>   */}
               {/* {homeRoute} */}
 
