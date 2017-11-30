@@ -32883,11 +32883,9 @@ var Main = function (_React$Component) {
     key: 'render',
     value: function render() {
       var title = localStorage.getItem('currentGreeting') == 'Website title';
-      var subtitle = localStorage.getItem('currentLanguage') == 'Eng' ? 'This is the home page.' : '这里是主页，请登录查看更多内容';
+      var subtitle = localStorage.getItem('currentLanguage') == 'Eng' ? 'This is the home page.' : 'This is the home page';
       // console.log();
 
-      // let homeRoute = <Home cardtitleP={localStorage.getItem('currentLanguage')} cardsubtitleP={localStorage.getItem('currentLanguage')}/>;
-      // let homeRoute = <Route exact path='/' render={() => <Home cardtitleP={localStorage.getItem('currentLanguage')} cardsubtitleP={localStorage.getItem('currentLanguage')}/>}/>;   
 
       return _react2.default.createElement(
         'main',
@@ -32896,7 +32894,7 @@ var Main = function (_React$Component) {
           _reactRouterDom.Switch,
           null,
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render() {
-              return _react2.default.createElement(_Home2.default, { cardtitleP: title, cardsubtitleP: subtitle });
+              return _react2.default.createElement(_Home2.default, { cardtitleP: '{title} cardsubtitleP={subtitle}' });
             } }),
           _react2.default.createElement(_reactRouterDom.Route, { path: '/login', component: _LoginPage2.default }),
           _react2.default.createElement(_reactRouterDom.Route, { path: '/signup', component: _SignUpPage2.default })
@@ -33010,22 +33008,13 @@ var Home = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _Auth2.default.isUserAuthenticated() == false ? _react2.default.createElement(
-          _Card.Card,
-          { className: 'container' },
-          _react2.default.createElement(_Card.CardTitle, { title: this.props.cardtitleP, subtitle: this.props.cardsubtitleP })
-        ) : _react2.default.createElement(_DashboardPage2.default, null)
+        _Auth2.default.isUserAuthenticated() == false ? _react2.default.createElement(_Card.Card, { className: 'container' }) : _react2.default.createElement(_DashboardPage2.default, null)
       );
     }
   }]);
 
   return Home;
 }(_react2.default.Component);
-
-Home.propTypes = {
-  cardtitleP: _propTypes2.default.string.isRequired,
-  cardsubtitleP: _propTypes2.default.string.isRequired
-};
 
 exports.default = Home;
 

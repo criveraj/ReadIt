@@ -57,9 +57,7 @@ class Home extends React.Component {
           
       <Card className="container">
         {/* <CardTitle title="React Application" subtitle="This is the home page. Log in to see the hidden content" /> */}
-
-          <CardTitle title={this.props.cardtitleP} subtitle={this.props.cardsubtitleP} />  
-
+  
           {/* <CardTitle title={maintitle} subtitle={subtitle} />   */}
         
       </Card>):
@@ -76,12 +74,5 @@ class Home extends React.Component {
 
 
 }
-
-Home.propTypes = {
-  cardtitleP: PropTypes.string.isRequired,
-  cardsubtitleP: PropTypes.string.isRequired
-};
-
-
 
 export default Home;
