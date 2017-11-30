@@ -33008,11 +33008,7 @@ var Home = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _Auth2.default.isUserAuthenticated() == false ? _react2.default.createElement(
-          _Card.Card,
-          { className: 'container' },
-          _react2.default.createElement(_Card.CardTitle, { title: this.props.cardtitleP, subtitle: this.props.cardsubtitleP })
-        ) : _react2.default.createElement(_DashboardPage2.default, null)
+        _Auth2.default.isUserAuthenticated() == false ? _react2.default.createElement(_Card.Card, { className: 'container' }) : _react2.default.createElement(_DashboardPage2.default, null)
       );
     }
   }]);
