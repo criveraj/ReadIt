@@ -69,11 +69,6 @@ class Header extends React.Component {
             {/* </button> */}
         </div>  
 
-        {/* <div className="top-bar-left" onClick={this.onLanguageSettingClicked}>
-            中文版
-        </div>       */}
-
-
         {Auth.isUserAuthenticated() == false ? (
         <div className="top-bar-right">
                  <Link to="/login">{this.state.loginText}</Link> 
