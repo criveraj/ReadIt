@@ -1,17 +1,16 @@
 import React from 'react';
-
 import PropTypes from 'prop-types';
-
+import SearchResultContainer from "./SearchResultContainer";
 import { Card, CardTitle, CardText } from 'material-ui/Card';
 
 
 const Dashboard = ({ secretData }) => (
   <Card className="container">
     <CardTitle
-      title="Dashboard"
-      subtitle="You should get access to this page only after authentication."
+      title="Which book are you reading today?"
+      subtitle=""
     />
-
+    <SearchResultContainer />
     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
   </Card>
 );
