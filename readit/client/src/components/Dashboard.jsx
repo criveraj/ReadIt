@@ -2,16 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SearchResultContainer from "./SearchResultContainer";
 import { Card, CardTitle, CardText } from 'material-ui/Card';
-
+import SearchBarContainer from './SearchBar/SearchBarContainer.jsx';
 
 const Dashboard = ({ secretData }) => (
   <Card className="container">
     <CardTitle
-      title="Which book are you reading today?"
+      title="I'm reading this book today"
       subtitle=""
     />
-    <SearchResultContainer />
-    {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
+    
+    {secretData && <CardText style={{ fontSize: '18px', color: 'green' }}></CardText>}
+    <SearchBarContainer />
   </Card>
 );
 
