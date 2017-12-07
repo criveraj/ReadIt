@@ -11,7 +11,7 @@ const Dashboard = ({ secretData }) => (
       subtitle=""
     />
     <SearchResultContainer />
-    {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
+    
   </Card>
 );
 

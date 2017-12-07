@@ -65,3 +65,25 @@ a:hover {
   padding: 0 16px;
   color: green;
 }
+
+ul {
+  list-style-type: none;
+}
+
+.list-group button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  float: left;
+  padding: 5px;
+  margin: 5px;
+}
+
+.form-group button {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}

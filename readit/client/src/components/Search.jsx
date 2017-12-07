@@ -3,7 +3,7 @@ import React from "react";
 const Search = props =>
   <form>
     <div className="form-group">
-      <label htmlFor="search">Search:</label>
+      <label htmlFor="search"></label>
       <input
         onChange={props.handleInputChange}
         value={props.search}
