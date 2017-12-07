@@ -12,6 +12,7 @@ const Dashboard = ({ secretData }) => (
     />
      {secretData && <CardText style={{ fontSize: '18px', color: 'green' }}></CardText>}
     <SearchBarContainer />
+    <SearchResultContainer />
   </Card>
 );
 

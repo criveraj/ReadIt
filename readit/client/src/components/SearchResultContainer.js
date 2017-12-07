@@ -36,11 +36,11 @@ class SearchResultContainer extends React.Component {
   render() {
     return (
       <div>
-       <Search
+       {/* <Search
           search={this.state.search}
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}
-        />
+        /> */}
         <Results results={this.state.results}/>
       </div>
     );
