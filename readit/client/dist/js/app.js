@@ -39197,11 +39197,11 @@ var SearchBarContainer = function (_React$Component) {
     };
     return _this;
   }
-  // When this component mounts, search the Giphy API for pictures of kittens
-
 
   _createClass(SearchBarContainer, [{
     key: "componentDidMount",
+
+    // When this component mounts, search the Giphy API for pictures of kittens
     value: function componentDidMount() {
       this.searchBestSeller("kite");
     }
@@ -39241,8 +39241,8 @@ var SearchBarContainer = function (_React$Component) {
         null,
         _react2.default.createElement(_SearchBar2.default, {
           search: this.state.search,
-          handleFormSubmit: this.handleFormSubmit,
-          handleInputChange: this.handleInputChange
+          handleFormSubmit: this.handleFormSubmit.bind(this),
+          handleInputChange: this.handleInputChange.bind(this)
         }),
         _react2.default.createElement(_SearchBarResults2.default, { results: this.state.results })
       );

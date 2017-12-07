@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar.jsx";
 import SearchBarResults from "./SearchBarResults.jsx";
-import SearchBarAPI from "../SearchBar/utils/SearchBarAPI.jsx";
+import SearchBarAPI from "./utils/SearchBarAPI.jsx";
 
 class SearchBarContainer extends React.Component {
   
@@ -11,11 +11,11 @@ class SearchBarContainer extends React.Component {
       search: "",
       results: []
     };
-  }
+  };
   // When this component mounts, search the Giphy API for pictures of kittens
   componentDidMount() {
     this.searchBestSeller("kite");
-  }
+  };
 
   searchBestSeller(query) {
     SearchBarAPI.search(query)
@@ -43,11 +43,12 @@ class SearchBarContainer extends React.Component {
   render() {
     return (
       <div>
-        <SearchBar
+          <SearchBar
           search={this.state.search}
-          handleFormSubmit={this.handleFormSubmit}
-          handleInputChange={this.handleInputChange}
+          handleFormSubmit={this.handleFormSubmit.bind(this)}
+          handleInputChange={this.handleInputChange.bind(this)}
         />
+   
         <SearchBarResults results={this.state.results} />
       </div>
     );
