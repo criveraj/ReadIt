@@ -48,7 +48,7 @@ const SignUpForm = ({onSubmit,onChange,errors,user}) => (
         <RaisedButton type="submit" label="Create New Account" primary />
       </div>
 
-      <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
+      <CardText><h4>Already have an account?</h4><Link to={'/login'}>Log in</Link></CardText>
     </form>
   </Card>
 );
