@@ -14,7 +14,7 @@ class SearchBarContainer extends React.Component {
   };
   // When this component mounts, search the Giphy API for pictures of kittens
   componentDidMount() {
-    this.searchBestSeller("kite");
+    this.searchBestSeller("");
   };
 
   searchBestSeller(query) {
