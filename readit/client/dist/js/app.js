@@ -38171,11 +38171,7 @@ var Search = function Search(props) {
     _react2.default.createElement(
       "div",
       { className: "form-group" },
-      _react2.default.createElement(
-        "label",
-        { htmlFor: "search" },
-        "Search:"
-      ),
+      _react2.default.createElement("label", { htmlFor: "search" }),
       _react2.default.createElement("input", {
         onChange: props.handleInputChange,
         value: props.search,

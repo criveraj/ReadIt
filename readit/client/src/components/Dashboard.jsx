@@ -10,8 +10,7 @@ const Dashboard = ({ secretData }) => (
       title="I'm reading this book today"
       subtitle=""
     />
-    
-    {secretData && <CardText style={{ fontSize: '18px', color: 'green' }}></CardText>}
+     {secretData && <CardText style={{ fontSize: '18px', color: 'green' }}></CardText>}
     <SearchBarContainer />
   </Card>
 );
