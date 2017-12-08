@@ -39134,7 +39134,7 @@ var SearchBarContainer = function (_React$Component) {
 
     _this.state = {
       search: "",
-      results: []
+      items: []
     };
     return _this;
   }
@@ -39144,7 +39144,7 @@ var SearchBarContainer = function (_React$Component) {
 
     // When this component mounts, search the Giphy API for pictures of kittens
     value: function componentDidMount() {
-      this.searchBestSeller("");
+      this.searchBestSeller("heartless");
     }
   }, {
     key: "searchBestSeller",
@@ -39152,8 +39152,8 @@ var SearchBarContainer = function (_React$Component) {
       var _this2 = this;
 
       _SearchBarAPI2.default.search(query).then(function (res) {
-        _this2.setState({ results: res.data.results });
-        console.log(_this2.state.results);
+        _this2.setState({ items: res.data.items });
+        console.log(_this2.state.items);
       }).catch(function (err) {
         return console.log(err);
       });
@@ -39185,7 +39185,7 @@ var SearchBarContainer = function (_React$Component) {
           handleFormSubmit: this.handleFormSubmit.bind(this),
           handleInputChange: this.handleInputChange.bind(this)
         }),
-        _react2.default.createElement(_SearchBarResults2.default, { results: this.state.results })
+        _react2.default.createElement(_SearchBarResults2.default, { items: this.state.items })
       );
     }
   }]);
@@ -39280,14 +39280,54 @@ var SearchBarResults = function SearchBarResults(props) {
     _react2.default.createElement(
       "ul",
       { className: "list-group" },
-      props.results.map(function (result) {
+      props.items.map(function (result) {
         return _react2.default.createElement(
           "div",
           { style: resultStyle },
           _react2.default.createElement(
             "li",
             { className: "list-group-item", key: result.id },
-            result.title
+            _react2.default.createElement(
+              "strong",
+              null,
+              "Title:"
+            ),
+            result.volumeInfo.title
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "li",
+              { className: "list-group-item", key: result.id },
+              _react2.default.createElement(
+                "strong",
+                null,
+                "Author:"
+              ),
+              result.volumeInfo.authors
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "li",
+              { className: "list-group-item", key: result.id },
+              _react2.default.createElement(
+                "strong",
+                null,
+                "Description: "
+              ),
+              result.volumeInfo.description
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement("img", {
+              alt: props.title,
+              src: result.volumeInfo.imageLinks.thumbnail })
           )
         );
       })
@@ -39320,7 +39360,7 @@ var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var BASEURL = "https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=0b6b94b962e84522a246003712577792&title=";
+var BASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
 var APIKEY = "";
 
 // Export an object with a "search" method that searches the Giphy API for the passed query

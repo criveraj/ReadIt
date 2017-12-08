@@ -9,19 +9,19 @@ class SearchBarContainer extends React.Component {
     super(props);
     this.state = {
       search: "",
-      results: []
+      items: []
     };
   };
   // When this component mounts, search the Giphy API for pictures of kittens
   componentDidMount() {
-    this.searchBestSeller("");
+    this.searchBestSeller("heartless");
   };
 
   searchBestSeller(query) {
     SearchBarAPI.search(query)
       .then(res => {
-        this.setState({ results: res.data.results })
-        console.log(this.state.results);
+        this.setState({ items: res.data.items })
+        console.log(this.state.items);
       })
       .catch(err => console.log(err));
   };
@@ -49,7 +49,7 @@ class SearchBarContainer extends React.Component {
           handleInputChange={this.handleInputChange.bind(this)}
         />
    
-        <SearchBarResults results={this.state.results} />
+        <SearchBarResults items={this.state.items} />
       </div>
     );
   }
