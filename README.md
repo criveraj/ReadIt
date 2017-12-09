@@ -1,2 +1,3 @@
 # ReadIt
-Book App that allow you to search for your favorite books and save your favorite selections or link to buy them
+Book App that allows you to search for your favorite books.
+You can also save your favorite selections or click a link to buy them
