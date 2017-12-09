@@ -2,8 +2,10 @@ import React from "react";
 
 const SearchBar = props =>
   <form>
-    <div className="form-group">
-      <label htmlFor="search">Search:</label>
+    <div >
+      <label htmlFor="search"></label>
+
+      
       <input
         onChange={props.handleInputChange}
         value={props.search}
@@ -13,6 +15,7 @@ const SearchBar = props =>
         placeholder="Search for a Title"
         id="search"
       />
+
       <button onClick={props.handleFormSubmit} className="btn btn-primary">
         Search
       </button>
