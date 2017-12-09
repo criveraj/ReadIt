@@ -103,3 +103,13 @@ ul {
   margin: 5px;
   border-radius: 5px;
 }
+
+h1 {
+  color: #00bcd4;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.4s;
+  font-size: 35px;
+  font-family: 'Audiowide', cursive; 
+}
