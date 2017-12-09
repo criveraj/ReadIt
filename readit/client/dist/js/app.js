@@ -39884,7 +39884,7 @@ var Header = function (_React$Component) {
     _this.state = {
       SiteText: 'RI',
       loginText: 'Log In',
-      signupText: 'Sign up',
+      signupText: 'Sign Up',
       userWelcomeText: 'Hello ',
       redirect: false
     };
@@ -39947,7 +39947,7 @@ var Header = function (_React$Component) {
           _react2.default.createElement(
             _reactRouterDom.Link,
             { to: '/login', onClick: this.onLogOutClicked },
-            'Log out'
+            'Log Out'
           )
         )
       );

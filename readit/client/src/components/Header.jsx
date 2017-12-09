@@ -14,7 +14,7 @@ class Header extends React.Component {
     this.state = {
       SiteText: 'RI',
       loginText: 'Log In',
-      signupText: 'Sign up',
+      signupText: 'Sign Up',
       userWelcomeText: 'Hello ',
       redirect: false,
     };
@@ -78,7 +78,7 @@ class Header extends React.Component {
         ):  
         (
         <div className="top-bar-right">
-                 <Link to="/login" onClick={this.onLogOutClicked}>Log out</Link> 
+                 <Link to="/login" onClick={this.onLogOutClicked}>Log Out</Link> 
         </div>
         )
         }
