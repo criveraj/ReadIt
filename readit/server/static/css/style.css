@@ -112,4 +112,15 @@ h1 {
   transition: color 0.4s;
   font-size: 35px;
   font-family: 'Audiowide', cursive; 
+  padding-top: 100px;
+}
+
+.btn {
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+  border-radius: 5px;
 }

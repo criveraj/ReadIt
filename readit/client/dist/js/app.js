@@ -12875,7 +12875,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _RaisedButton = __webpack_require__(484);
+var _RaisedButton = __webpack_require__(485);
 
 var _RaisedButton2 = _interopRequireDefault(_RaisedButton);
 
@@ -12895,7 +12895,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = undefined;
 
-var _TextField = __webpack_require__(485);
+var _TextField = __webpack_require__(486);
 
 var _TextField2 = _interopRequireDefault(_TextField);
 
@@ -50648,11 +50648,11 @@ var _Home = __webpack_require__(422);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _LoginPage = __webpack_require__(482);
+var _LoginPage = __webpack_require__(483);
 
 var _LoginPage2 = _interopRequireDefault(_LoginPage);
 
-var _SignUpPage = __webpack_require__(493);
+var _SignUpPage = __webpack_require__(494);
 
 var _SignUpPage2 = _interopRequireDefault(_SignUpPage);
 
@@ -56028,7 +56028,7 @@ var _SearchBarResults = __webpack_require__(480);
 
 var _SearchBarResults2 = _interopRequireDefault(_SearchBarResults);
 
-var _SearchBarAPI = __webpack_require__(481);
+var _SearchBarAPI = __webpack_require__(482);
 
 var _SearchBarAPI2 = _interopRequireDefault(_SearchBarAPI);
 
@@ -56052,7 +56052,7 @@ var SearchBarContainer = function (_React$Component) {
 
     _this.state = {
       search: "",
-      results: []
+      items: []
     };
     return _this;
   }
@@ -56062,7 +56062,7 @@ var SearchBarContainer = function (_React$Component) {
 
     // When this component mounts, search the Giphy API for pictures of kittens
     value: function componentDidMount() {
-      this.searchBestSeller("kite");
+      this.searchBestSeller("heartless");
     }
   }, {
     key: "searchBestSeller",
@@ -56070,8 +56070,8 @@ var SearchBarContainer = function (_React$Component) {
       var _this2 = this;
 
       _SearchBarAPI2.default.search(query).then(function (res) {
-        _this2.setState({ results: res.data.results });
-        console.log(_this2.state.results);
+        _this2.setState({ items: res.data.items });
+        console.log(_this2.state.items);
       }).catch(function (err) {
         return console.log(err);
       });
@@ -56103,7 +56103,7 @@ var SearchBarContainer = function (_React$Component) {
           handleFormSubmit: this.handleFormSubmit.bind(this),
           handleInputChange: this.handleInputChange.bind(this)
         }),
-        _react2.default.createElement(_SearchBarResults2.default, { results: this.state.results })
+        _react2.default.createElement(_SearchBarResults2.default, { items: this.state.items })
       );
     }
   }]);
@@ -56136,12 +56136,8 @@ var SearchBar = function SearchBar(props) {
     null,
     _react2.default.createElement(
       "div",
-      { className: "form-group" },
-      _react2.default.createElement(
-        "label",
-        { htmlFor: "search" },
-        "Search:"
-      ),
+      null,
+      _react2.default.createElement("label", { htmlFor: "search" }),
       _react2.default.createElement("input", {
         onChange: props.handleInputChange,
         value: props.search,
@@ -56177,19 +56173,100 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _index = __webpack_require__(481);
+
+var _index2 = _interopRequireDefault(_index);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Style = {
+  background: "#eee",
+  padding: "20px",
+  margin: "20px"
+
+};
+
+var resultStyle = {
+  color: "purple",
+  border: "1px solid green"
+};
 
 var SearchBarResults = function SearchBarResults(props) {
   return _react2.default.createElement(
-    "ul",
-    { className: "list-group" },
-    props.results.map(function (result) {
-      return _react2.default.createElement(
-        "li",
-        { className: "list-group-item", key: result.id },
-        result.title
-      );
-    })
+    "div",
+    { style: Style },
+    _react2.default.createElement(
+      "ul",
+      { className: "list-group" },
+      props.items.map(function (result) {
+        return _react2.default.createElement(
+          "div",
+          { style: resultStyle },
+          _react2.default.createElement(
+            "li",
+            { className: "list-group-item", key: result.id },
+            _react2.default.createElement(
+              "strong",
+              null,
+              "Title: "
+            ),
+            result.volumeInfo.title
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "li",
+              { className: "list-group-item", key: result.id },
+              _react2.default.createElement(
+                "strong",
+                null,
+                "Author: "
+              ),
+              result.volumeInfo.authors
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "li",
+              { className: "list-group-item", key: result.id },
+              _react2.default.createElement(
+                "strong",
+                null,
+                "Description: "
+              ),
+              result.volumeInfo.description
+            )
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement("img", {
+              alt: props.title,
+              src: result.volumeInfo.imageLinks.thumbnail })
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            _react2.default.createElement(
+              "li",
+              { className: "list-group-item", key: result.id },
+              _react2.default.createElement(
+                "a",
+                { href: result.saleInfo.buyLink },
+                _react2.default.createElement(
+                  "strong",
+                  null,
+                  "Purchase"
+                )
+              )
+            )
+          )
+        );
+      })
+    )
   );
 };
 
@@ -56197,6 +56274,12 @@ exports.default = SearchBarResults;
 
 /***/ }),
 /* 481 */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+/* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56212,7 +56295,7 @@ var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var BASEURL = "https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json?api-key=0b6b94b962e84522a246003712577792&title=";
+var BASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
 var APIKEY = "";
 
 // Export an object with a "search" method that searches the Giphy API for the passed query
@@ -56223,7 +56306,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 482 */
+/* 483 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56239,7 +56322,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _LoginForm = __webpack_require__(483);
+var _LoginForm = __webpack_require__(484);
 
 var _LoginForm2 = _interopRequireDefault(_LoginForm);
 
@@ -56408,7 +56491,7 @@ var LoginPage = function (_React$Component) {
 exports.default = LoginPage;
 
 /***/ }),
-/* 483 */
+/* 484 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56525,7 +56608,7 @@ LoginForm.propTypes = {
 exports.default = LoginForm;
 
 /***/ }),
-/* 484 */
+/* 485 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57017,7 +57100,7 @@ exports.default = RaisedButton;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 485 */
+/* 486 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57079,19 +57162,19 @@ var _transitions = __webpack_require__(21);
 
 var _transitions2 = _interopRequireDefault(_transitions);
 
-var _EnhancedTextarea = __webpack_require__(486);
+var _EnhancedTextarea = __webpack_require__(487);
 
 var _EnhancedTextarea2 = _interopRequireDefault(_EnhancedTextarea);
 
-var _TextFieldHint = __webpack_require__(490);
+var _TextFieldHint = __webpack_require__(491);
 
 var _TextFieldHint2 = _interopRequireDefault(_TextFieldHint);
 
-var _TextFieldLabel = __webpack_require__(491);
+var _TextFieldLabel = __webpack_require__(492);
 
 var _TextFieldLabel2 = _interopRequireDefault(_TextFieldLabel);
 
-var _TextFieldUnderline = __webpack_require__(492);
+var _TextFieldUnderline = __webpack_require__(493);
 
 var _TextFieldUnderline2 = _interopRequireDefault(_TextFieldUnderline);
 
@@ -57615,7 +57698,7 @@ exports.default = TextField;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 486 */
+/* 487 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57665,7 +57748,7 @@ var _propTypes = __webpack_require__(1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _reactEventListener = __webpack_require__(487);
+var _reactEventListener = __webpack_require__(488);
 
 var _reactEventListener2 = _interopRequireDefault(_reactEventListener);
 
@@ -57879,7 +57962,7 @@ exports.default = EnhancedTextarea;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 487 */
+/* 488 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57941,7 +58024,7 @@ var _warning = __webpack_require__(10);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _supports = __webpack_require__(488);
+var _supports = __webpack_require__(489);
 
 var supports = _interopRequireWildcard(_supports);
 
@@ -58108,7 +58191,7 @@ exports.default = EventListener;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 488 */
+/* 489 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58119,7 +58202,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.passiveOption = exports.detachEvent = exports.attachEvent = exports.removeEventListener = exports.addEventListener = exports.canUseDOM = undefined;
 
-var _defineProperty = __webpack_require__(489);
+var _defineProperty = __webpack_require__(490);
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -58162,7 +58245,7 @@ var passiveOption = exports.passiveOption = function () {
 }();
 
 /***/ }),
-/* 489 */
+/* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58187,7 +58270,7 @@ function defineProperty(o, p, attr) {
 }
 
 /***/ }),
-/* 490 */
+/* 491 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58274,7 +58357,7 @@ exports.default = TextFieldHint;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 491 */
+/* 492 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58398,7 +58481,7 @@ exports.default = TextFieldLabel;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 492 */
+/* 493 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58544,7 +58627,7 @@ exports.default = TextFieldUnderline;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(9)))
 
 /***/ }),
-/* 493 */
+/* 494 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58560,7 +58643,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SignUpForm = __webpack_require__(494);
+var _SignUpForm = __webpack_require__(495);
 
 var _SignUpForm2 = _interopRequireDefault(_SignUpForm);
 
@@ -58705,7 +58788,7 @@ var SignUpPage = function (_React$Component) {
 exports.default = SignUpPage;
 
 /***/ }),
-/* 494 */
+/* 495 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
