@@ -1,0 +1,801 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2017 The New York Times Company.  All Rights Reserved.",
+    "num_results": 15,
+    "last_modified": "2017-12-08T14:38:01-05:00",
+    "results": {
+    "list_name": "Hardcover Nonfiction",
+    "list_name_encoded": "hardcover-nonfiction",
+    "bestsellers_date": "2017-12-02",
+    "published_date": "2017-12-17",
+    "published_date_description": "latest",
+    "next_published_date": "",
+    "previous_published_date": "2017-12-10",
+    "display_name": "Hardcover Nonfiction",
+    "normal_list_ends_at": 15,
+    "updated": "WEEKLY",
+    "books": [
+    {
+    "rank": 1,
+    "rank_last_week": 2,
+    "weeks_on_list": 7,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1501139150",
+    "primary_isbn13": "9781501139154",
+    "publisher": "Simon & Schuster",
+    "description": "A biography of the Italian Renaissance polymath which connects his work in various disciplines.",
+    "price": 0,
+    "title": "LEONARDO DA VINCI",
+    "author": "Walter Isaacson",
+    "contributor": "by Walter Isaacson",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781501139154.jpg",
+    "book_image_width": 329,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "https://www.nytimes.com/2017/11/27/books/review/leonardo-da-vinci-biography-walter-isaacson.html",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1501139150",
+    "isbn13": "9781501139154"
+    },
+    {
+    "isbn10": "1501139177",
+    "isbn13": "9781501139178"
+    },
+    {
+    "isbn10": "1508241988",
+    "isbn13": "9781508241980"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501139154?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501139154"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 2,
+    "rank_last_week": 4,
+    "weeks_on_list": 8,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "159420487X",
+    "primary_isbn13": "9781594204876",
+    "publisher": "Penguin Press",
+    "description": "A biography of the Union general of the Civil War and two-term president of the United States.",
+    "price": 0,
+    "title": "GRANT",
+    "author": "Ron Chernow",
+    "contributor": "by Ron Chernow",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781594204876.jpg",
+    "book_image_width": 326,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Grant-Ron-Chernow/dp/159420487X?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "https://www.nytimes.com/2017/10/12/books/review/ron-chernow-ulysses-s-grant-biography-bill-clinton.html",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "159420487X",
+    "isbn13": "9781594204876"
+    },
+    {
+    "isbn10": "052552195X",
+    "isbn13": "9780525521952"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781594204876?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781594204876"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Grant-Ron-Chernow/dp/159420487X?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 3,
+    "rank_last_week": 1,
+    "weeks_on_list": 4,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0316512583",
+    "primary_isbn13": "9780316512589",
+    "publisher": "Little, Brown",
+    "description": "More than 300 pictures of the former president by his White House photographer, with behind-the-scenes stories.",
+    "price": 0,
+    "title": "OBAMA",
+    "author": "Pete Souza",
+    "contributor": "by Pete Souza",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780316512589.jpg",
+    "book_image_width": 330,
+    "book_image_height": 275,
+    "amazon_product_url": "https://www.amazon.com/Obama-Intimate-Portrait-Pete-Souza/dp/0316512583?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0316512583",
+    "isbn13": "9780316512589"
+    },
+    {
+    "isbn10": "0316512591",
+    "isbn13": "9780316512596"
+    },
+    {
+    "isbn10": "0316512575",
+    "isbn13": "9780316512572"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780316512589?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316512589"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Obama-Intimate-Portrait-Pete-Souza/dp/0316512583?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 4,
+    "rank_last_week": 3,
+    "weeks_on_list": 3,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1250171679",
+    "primary_isbn13": "9781250171672",
+    "publisher": "Flatiron Books",
+    "description": "The former vice president recalls his toughest year in office, as his son battled brain cancer.",
+    "price": 0,
+    "title": "PROMISE ME, DAD",
+    "author": "Joe Biden",
+    "contributor": "by Joe Biden",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781250171672.jpg",
+    "book_image_width": 328,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Promise-Me-Dad-Hardship-Purpose/dp/1250171679?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1250171679",
+    "isbn13": "9781250171672"
+    },
+    {
+    "isbn10": "1250171687",
+    "isbn13": "9781250171689"
+    },
+    {
+    "isbn10": "1250183944",
+    "isbn13": "9781250183941"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781250171672?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781250171672"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Promise-Me-Dad-Hardship-Purpose/dp/1250171679?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 5,
+    "rank_last_week": 5,
+    "weeks_on_list": 6,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0735213232",
+    "primary_isbn13": "9780735213234",
+    "publisher": "Sentinel",
+    "description": "Major General Jackson takes on the British in Louisiana.",
+    "price": 0,
+    "title": "ANDREW JACKSON AND THE MIRACLE OF NEW ORLEANS",
+    "author": "Brian Kilmeade and Don Yaeger",
+    "contributor": "by Brian Kilmeade and Don Yaeger",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780735213234.jpg",
+    "book_image_width": 328,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Andrew-Jackson-Miracle-New-Orleans/dp/0735213232?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0735213232",
+    "isbn13": "9780735213234"
+    },
+    {
+    "isbn10": "0735213259",
+    "isbn13": "9780735213258"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780735213234?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735213234"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Andrew-Jackson-Miracle-New-Orleans/dp/0735213232?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 6,
+    "rank_last_week": 9,
+    "weeks_on_list": 31,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0393609391",
+    "primary_isbn13": "9780393609394",
+    "publisher": "Norton",
+    "description": "A straightforward, easy-to-understand introduction to the universe.",
+    "price": 0,
+    "title": "ASTROPHYSICS FOR PEOPLE IN A HURRY",
+    "author": "Neil deGrasse Tyson",
+    "contributor": "by Neil deGrasse Tyson",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780393609394.jpg",
+    "book_image_width": 305,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Astrophysics-People-Hurry-deGrasse-Tyson/dp/0393609391?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "None",
+    "isbn13": "9780143177289"
+    },
+    {
+    "isbn10": "0393609391",
+    "isbn13": "9780393609394"
+    },
+    {
+    "isbn10": "0393609405",
+    "isbn13": "9780393609400"
+    },
+    {
+    "isbn10": "1432843524",
+    "isbn13": "9781432843526"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780393609394?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780393609394"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Astrophysics-People-Hurry-deGrasse-Tyson/dp/0393609391?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 7,
+    "rank_last_week": 7,
+    "weeks_on_list": 11,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1627790640",
+    "primary_isbn13": "9781627790642",
+    "publisher": "Holt",
+    "description": "Major events and battles during the Revolutionary War are told from several perspectives.",
+    "price": 0,
+    "title": "KILLING ENGLAND",
+    "author": "Bill O'Reilly and Martin Dugard",
+    "contributor": "by Bill O'Reilly and Martin Dugard",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781627790642.jpg",
+    "book_image_width": 327,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Killing-England-Struggle-American-Independence/dp/1627790640?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1627790640",
+    "isbn13": "9781627790642"
+    },
+    {
+    "isbn10": "1627790659",
+    "isbn13": "9781627790659"
+    },
+    {
+    "isbn10": "1432844385",
+    "isbn13": "9781432844387"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781627790642?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781627790642"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Killing-England-Struggle-American-Independence/dp/1627790640?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 8,
+    "rank_last_week": 6,
+    "weeks_on_list": 5,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1501111868",
+    "primary_isbn13": "9781501111860",
+    "publisher": "Simon & Schuster",
+    "description": "The New York senator's journey from his formative years to his tragic run for president.",
+    "price": 0,
+    "title": "BOBBY KENNEDY",
+    "author": "Chris Matthews",
+    "contributor": "by Chris Matthews",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781501111860.jpg",
+    "book_image_width": 330,
+    "book_image_height": 491,
+    "amazon_product_url": "https://www.amazon.com/Bobby-Kennedy-Raging-Chris-Matthews/dp/1501111868?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1501111868",
+    "isbn13": "9781501111860"
+    },
+    {
+    "isbn10": "1501111884",
+    "isbn13": "9781501111884"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501111860?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501111860"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Bobby-Kennedy-Raging-Chris-Matthews/dp/1501111868?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 9,
+    "rank_last_week": 8,
+    "weeks_on_list": 6,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1538711419",
+    "primary_isbn13": "9781538711415",
+    "publisher": "Grand Central",
+    "description": "How the twin daughters of former president George W. Bush grew up in the public eye.",
+    "price": 0,
+    "title": "SISTERS FIRST",
+    "author": "Jenna Bush Hager and Barbara Pierce Bush",
+    "contributor": "by Jenna Bush Hager and Barbara Pierce Bush",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781538711415.jpg",
+    "book_image_width": 327,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Sisters-First-Stories-Wild-Wonderful/dp/1538711419?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1538711419",
+    "isbn13": "9781538711415"
+    },
+    {
+    "isbn10": "1538711435",
+    "isbn13": "9781538711439"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781538711415?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538711415"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Sisters-First-Stories-Wild-Wonderful/dp/1538711419?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 10,
+    "rank_last_week": 11,
+    "weeks_on_list": 12,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1501175564",
+    "primary_isbn13": "9781501175565",
+    "publisher": "Simon & Schuster",
+    "description": "An inside look at her campaign and how she recovered in its aftermath.",
+    "price": 0,
+    "title": "WHAT HAPPENED",
+    "author": "Hillary Rodham Clinton",
+    "contributor": "by Hillary Rodham Clinton",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781501175565.jpg",
+    "book_image_width": 328,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1501175564",
+    "isbn13": "9781501175565"
+    },
+    {
+    "isbn10": "1501175572",
+    "isbn13": "9781501175572"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501175565?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501175565"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/What-Happened-Hillary-Rodham-Clinton/dp/1501175564?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 11,
+    "rank_last_week": 10,
+    "weeks_on_list": 7,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1524731595",
+    "primary_isbn13": "9781524731595",
+    "publisher": "Knopf",
+    "description": "A memoir by the retired astronaut and former commander of the International Space Station.",
+    "price": 0,
+    "title": "ENDURANCE",
+    "author": "Scott Kelly",
+    "contributor": "by Scott Kelly",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781524731595.jpg",
+    "book_image_width": 330,
+    "book_image_height": 482,
+    "amazon_product_url": "https://www.amazon.com/Endurance-Year-Space-Lifetime-Discovery/dp/1524731595?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1524731595",
+    "isbn13": "9781524731595"
+    },
+    {
+    "isbn10": "1524731609",
+    "isbn13": "9781524731601"
+    },
+    {
+    "isbn10": "1524734179",
+    "isbn13": "9781524734176"
+    },
+    {
+    "isbn10": "0525590056",
+    "isbn13": "9780525590057"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781524731595?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781524731595"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Endurance-Year-Space-Lifetime-Discovery/dp/1524731595?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 12,
+    "rank_last_week": 0,
+    "weeks_on_list": 3,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1616207825",
+    "primary_isbn13": "9781616207823",
+    "publisher": "Algonquin",
+    "description": "A collection of essays that define the historical changes and essential institutions of America to suggest ways to overcome divisions within the country.",
+    "price": 0,
+    "title": "WHAT UNITES US",
+    "author": "Dan Rather and Elliot Kirschner",
+    "contributor": "by Dan Rather and Elliot Kirschner",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781616207823.jpg",
+    "book_image_width": 330,
+    "book_image_height": 461,
+    "amazon_product_url": "https://www.amazon.com/What-Unites-Us-Reflections-Patriotism/dp/1616207825?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1616207825",
+    "isbn13": "9781616207823"
+    },
+    {
+    "isbn10": "1616207841",
+    "isbn13": "9781616207847"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781616207823?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781616207823"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/What-Unites-Us-Reflections-Patriotism/dp/1616207825?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 13,
+    "rank_last_week": 0,
+    "weeks_on_list": 24,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0385534248",
+    "primary_isbn13": "9780385534246",
+    "publisher": "Doubleday",
+    "description": "The story of a murder spree in 1920s Oklahoma that targeted Osage Indians.",
+    "price": 0,
+    "title": "KILLERS OF THE FLOWER MOON",
+    "author": "David Grann",
+    "contributor": "by David Grann",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780385534246.jpg",
+    "book_image_width": 326,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "https://www.nytimes.com/2017/04/28/books/review/killers-of-the-flower-moon-david-grann.html",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0385534248",
+    "isbn13": "9780385534246"
+    },
+    {
+    "isbn10": "0385534256",
+    "isbn13": "9780385534253"
+    },
+    {
+    "isbn10": "1524755931",
+    "isbn13": "9781524755935"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780385534246?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385534246"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Killers-Flower-Moon-Osage-Murders/dp/0385534248?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 14,
+    "rank_last_week": 13,
+    "weeks_on_list": 9,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0399590560",
+    "primary_isbn13": "9780399590566",
+    "publisher": "One World",
+    "description": "A series of essays that cover each year of the Obama administration and the writer's own journey.",
+    "price": 0,
+    "title": "WE WERE EIGHT YEARS IN POWER",
+    "author": "Ta-Nehisi Coates",
+    "contributor": "by Ta-Nehisi Coates",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780399590566.jpg",
+    "book_image_width": 326,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/We-Were-Eight-Years-Power/dp/0399590560?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "https://www.nytimes.com/2017/11/03/books/review/we-were-eight-years-in-power-ta-nehisi-coates-essays-memoir.html",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0399590560",
+    "isbn13": "9780399590566"
+    },
+    {
+    "isbn10": "0399590587",
+    "isbn13": "9780399590580"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780399590566?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780399590566"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/We-Were-Eight-Years-Power/dp/0399590560?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 15,
+    "rank_last_week": 15,
+    "weeks_on_list": 69,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0062300547",
+    "primary_isbn13": "9780062300546",
+    "publisher": "HarperCollins",
+    "description": "A Yale Law School graduate examines white working class struggles.",
+    "price": 0,
+    "title": "HILLBILLY ELEGY",
+    "author": "JD Vance",
+    "contributor": "by J.D. Vance",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780062300560.jpg",
+    "book_image_width": 328,
+    "book_image_height": 495,
+    "amazon_product_url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0062300547",
+    "isbn13": "9780062300546"
+    },
+    {
+    "isbn10": "0062300563",
+    "isbn13": "9780062300560"
+    },
+    {
+    "isbn10": "141049666X",
+    "isbn13": "9781410496669"
+    },
+    {
+    "isbn10": "0062300555",
+    "isbn13": "9780062300553"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780062300546?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062300546"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Hillbilly-Elegy-Memoir-Family-Culture-ebook/dp/B0166ISAS8?tag=NYTBS-20"
+    }
+    ]
+    }
+    ],
+    "corrections": []
+    }
+    }
+    

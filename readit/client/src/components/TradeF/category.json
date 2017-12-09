@@ -1,0 +1,572 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2017 The New York Times Company.  All Rights Reserved.",
+    "num_results": 10,
+    "last_modified": "2017-12-08T14:38:01-05:00",
+    "results": {
+    "list_name": "Trade Fiction Paperback",
+    "list_name_encoded": "trade-fiction-paperback",
+    "bestsellers_date": "2017-12-02",
+    "published_date": "2017-12-17",
+    "published_date_description": "latest",
+    "next_published_date": "",
+    "previous_published_date": "2017-12-10",
+    "display_name": "Paperback Trade Fiction",
+    "normal_list_ends_at": 10,
+    "updated": "WEEKLY",
+    "books": [
+    {
+    "rank": 1,
+    "rank_last_week": 0,
+    "weeks_on_list": 1,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0385543913",
+    "primary_isbn13": "9780385543910",
+    "publisher": "Vintage",
+    "description": "",
+    "price": 0,
+    "title": "DARKER",
+    "author": "E L James",
+    "contributor": "by E. L. James",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780385543989.jpg",
+    "book_image_width": 325,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Darker-Fifty-Shades-Told-Christian-ebook/dp/B07693HRS9?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "0385543913",
+    "isbn13": "9780385543910"
+    },
+    {
+    "isbn10": "0385543980",
+    "isbn13": "9780385543989"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780385543910?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780385543910"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Darker-Fifty-Shades-Told-Christian-ebook/dp/B07693HRS9?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 2,
+    "rank_last_week": 1,
+    "weeks_on_list": 9,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1449486797",
+    "primary_isbn13": "9781449486792",
+    "publisher": "Andrews McMeel",
+    "description": "",
+    "price": 0,
+    "title": "THE SUN AND HER FLOWERS",
+    "author": "Rupi Kaur",
+    "contributor": "by Rupi Kaur",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781449486792.jpg",
+    "book_image_width": 319,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Sun-Her-Flowers-Rupi-Kaur/dp/1449486797?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1449486797",
+    "isbn13": "9781449486792"
+    },
+    {
+    "isbn10": "1449488897",
+    "isbn13": "9781449488895"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781449486792?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781449486792"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Sun-Her-Flowers-Rupi-Kaur/dp/1449486797?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 3,
+    "rank_last_week": 2,
+    "weeks_on_list": 86,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "144947425X",
+    "primary_isbn13": "9781449474256",
+    "publisher": "Andrews McMeel",
+    "description": "",
+    "price": 0,
+    "title": "MILK AND HONEY",
+    "author": "Rupi Kaur",
+    "contributor": "by Rupi Kaur",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781449474256.jpg",
+    "book_image_width": 319,
+    "book_image_height": 495,
+    "amazon_product_url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "144947425X",
+    "isbn13": "9781449474256"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781449474256?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781449474256"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Milk-Honey-Rupi-Kaur/dp/144947425X?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 4,
+    "rank_last_week": 3,
+    "weeks_on_list": 16,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1501175467",
+    "primary_isbn13": "9781501175466",
+    "publisher": "Scribner",
+    "description": "",
+    "price": 0,
+    "title": "IT",
+    "author": "Stephen King",
+    "contributor": "by Stephen King",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781501141232.jpg",
+    "book_image_width": 325,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1501141236",
+    "isbn13": "9781501141232"
+    },
+    {
+    "isbn10": "1501142976",
+    "isbn13": "9781501142970"
+    },
+    {
+    "isbn10": "1501156683",
+    "isbn13": "9781501156687"
+    },
+    {
+    "isbn10": "1501182099",
+    "isbn13": "9781501182099"
+    },
+    {
+    "isbn10": "1501175467",
+    "isbn13": "9781501175466"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501175466?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501175466"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Stephen-King-ebook/dp/B018ER7K5I?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 5,
+    "rank_last_week": 4,
+    "weeks_on_list": 35,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "0307887448",
+    "primary_isbn13": "9780307887443",
+    "publisher": "Broadway",
+    "description": "",
+    "price": 0,
+    "title": "READY PLAYER ONE",
+    "author": "Ernest Cline",
+    "contributor": "by Ernest Cline",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9780307887443.jpg",
+    "book_image_width": 317,
+    "book_image_height": 495,
+    "amazon_product_url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "https://www.nytimes.com/2011/08/15/books/ready-player-one-by-ernest-cline-review.html",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "030788743X",
+    "isbn13": "9780307887436"
+    },
+    {
+    "isbn10": "0307887448",
+    "isbn13": "9780307887443"
+    },
+    {
+    "isbn10": "0307887456",
+    "isbn13": "9780307887450"
+    },
+    {
+    "isbn10": "1524755613",
+    "isbn13": "9781524755614"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9780307887443?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780307887443"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/030788743X?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 6,
+    "rank_last_week": 7,
+    "weeks_on_list": 34,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1501132954",
+    "primary_isbn13": "9781501132957",
+    "publisher": "Scout",
+    "description": "",
+    "price": 0,
+    "title": "THE WOMAN IN CABIN 10",
+    "author": "Ruth Ware",
+    "contributor": "by Ruth Ware",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781501132940.jpg",
+    "book_image_width": 330,
+    "book_image_height": 495,
+    "amazon_product_url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1501132938",
+    "isbn13": "9781501132933"
+    },
+    {
+    "isbn10": "1501132946",
+    "isbn13": "9781501132940"
+    },
+    {
+    "isbn10": "1501132954",
+    "isbn13": "9781501132957"
+    },
+    {
+    "isbn10": "1501151797",
+    "isbn13": "9781501151798"
+    },
+    {
+    "isbn10": "1432839934",
+    "isbn13": "9781432839932"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501132957?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501132957"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Woman-Cabin-10-Ruth-Ware-ebook/dp/B019DKO5BM?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 7,
+    "rank_last_week": 5,
+    "weeks_on_list": 35,
+    "asterisk": 1,
+    "dagger": 0,
+    "primary_isbn10": "1501173219",
+    "primary_isbn13": "9781501173219",
+    "publisher": "Scribner",
+    "description": "",
+    "price": 0,
+    "title": "ALL THE LIGHT WE CANNOT SEE",
+    "author": "Anthony Doerr",
+    "contributor": "by Anthony Doerr",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781476746586.jpg",
+    "book_image_width": 128,
+    "book_image_height": 192,
+    "amazon_product_url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "https://www.nytimes.com/2014/05/11/books/review/all-the-light-we-cannot-see-by-anthony-doerr.html",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1476746583",
+    "isbn13": "9781476746586"
+    },
+    {
+    "isbn10": "1410470229",
+    "isbn13": "9781410470225"
+    },
+    {
+    "isbn10": "1476746591",
+    "isbn13": "9781476746593"
+    },
+    {
+    "isbn10": "1501122835",
+    "isbn13": "9781501122835"
+    },
+    {
+    "isbn10": "0007548699",
+    "isbn13": "9780007548699"
+    },
+    {
+    "isbn10": "1501173219",
+    "isbn13": "9781501173219"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781501173219?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781501173219"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/All-Light-We-Cannot-See/dp/1476746583?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 8,
+    "rank_last_week": 6,
+    "weeks_on_list": 3,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1538759632",
+    "primary_isbn13": "9781538759639",
+    "publisher": "Grand Central",
+    "description": "",
+    "price": 0,
+    "title": "COUNT TO TEN",
+    "author": "James Patterson and Ashwin Sanghi",
+    "contributor": "by James Patterson and Ashwin Sanghi",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781538759653.jpg",
+    "book_image_width": 276,
+    "book_image_height": 495,
+    "amazon_product_url": "https://www.amazon.com/Count-Ten-Private-James-Patterson-ebook/dp/B06XFWDLGR?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1538759632",
+    "isbn13": "9781538759639"
+    },
+    {
+    "isbn10": "1538759659",
+    "isbn13": "9781538759653"
+    },
+    {
+    "isbn10": "1538759624",
+    "isbn13": "9781538759622"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781538759639?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781538759639"
+    },
+    {
+    "name": "Amazon",
+    "url": "https://www.amazon.com/Count-Ten-Private-James-Patterson-ebook/dp/B06XFWDLGR?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 9,
+    "rank_last_week": 0,
+    "weeks_on_list": 39,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1101883081",
+    "primary_isbn13": "9781101883082",
+    "publisher": "Ballantine",
+    "description": "",
+    "price": 0,
+    "title": "LILAC GIRLS",
+    "author": "Martha Hall Kelly",
+    "contributor": "by Martha Hall Kelly",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781101883075.jpg",
+    "book_image_width": 330,
+    "book_image_height": 493,
+    "amazon_product_url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1101883073",
+    "isbn13": "9781101883075"
+    },
+    {
+    "isbn10": "1101883065",
+    "isbn13": "9781101883068"
+    },
+    {
+    "isbn10": "1101883081",
+    "isbn13": "9781101883082"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781101883082?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101883082"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Lilac-Girls-Martha-Hall-Kelly/dp/1101883073?tag=NYTBS-20"
+    }
+    ]
+    },
+    {
+    "rank": 10,
+    "rank_last_week": 9,
+    "weeks_on_list": 85,
+    "asterisk": 0,
+    "dagger": 0,
+    "primary_isbn10": "1476738025",
+    "primary_isbn13": "9781476738024",
+    "publisher": "Washington Square",
+    "description": "",
+    "price": 0,
+    "title": "A MAN CALLED OVE",
+    "author": "Fredrik Backman",
+    "contributor": "by Fredrik Backman",
+    "contributor_note": "",
+    "book_image": "https://s1.nyt.com/du/books/images/9781476738024.jpg",
+    "book_image_width": 318,
+    "book_image_height": 495,
+    "amazon_product_url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20",
+    "age_group": "",
+    "book_review_link": "",
+    "first_chapter_link": "",
+    "sunday_review_link": "",
+    "article_chapter_link": "",
+    "isbns": [
+    {
+    "isbn10": "1476738025",
+    "isbn13": "9781476738024"
+    },
+    {
+    "isbn10": "1476738017",
+    "isbn13": "9781476738017"
+    },
+    {
+    "isbn10": "1594139830",
+    "isbn13": "9781594139833"
+    },
+    {
+    "isbn10": "1410472922",
+    "isbn13": "9781410472922"
+    }
+    ],
+    "buy_links": [
+    {
+    "name": "Local Booksellers",
+    "url": "http://www.indiebound.org/book/9781476738024?aff=NYT"
+    },
+    {
+    "name": "Barnes and Noble",
+    "url": "http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781476738024"
+    },
+    {
+    "name": "Amazon",
+    "url": "http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=NYTBS-20"
+    }
+    ]
+    }
+    ],
+    "corrections": []
+    }
+    }
+    

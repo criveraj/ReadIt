@@ -4,7 +4,7 @@ import style from './styles/index.css';
 
 
 var Style = {
-  background: "#eee",
+  background: "transparent",
   padding: "20px",
   margin: "20px",
 

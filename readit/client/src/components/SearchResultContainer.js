@@ -2,6 +2,7 @@ import React from "react";
 import Search from "./Search.jsx";
 import Results from "./Results.jsx";
 import API from "../utils/API.js";
+import CategoriesSidebar from "./CategoriesSidebar.jsx"
 
 class SearchResultContainer extends React.Component {
 
@@ -41,7 +42,7 @@ class SearchResultContainer extends React.Component {
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}
         /> */}
-        <Results results={this.state.results}/>
+        <CategoriesSidebar results={this.state.results}/>
       </div>
     );
   }
