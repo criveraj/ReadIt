@@ -6,10 +6,11 @@ import SearchBarContainer from './SearchBar/SearchBarContainer.jsx';
 
 const Dashboard = ({ secretData }) => (
   <Card className="container">
+    <h3>
     <CardTitle
       title="I'm reading this book today"
       subtitle=""
-    />
+    /></h3>
      {secretData && <CardText style={{ fontSize: '18px', color: 'green' }}></CardText>}
     <SearchBarContainer />
     <SearchResultContainer />

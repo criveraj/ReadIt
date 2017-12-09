@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Auth from '../modules/Auth';
 import {Redirect} from 'react-router-dom';
+import { Glyphicon } from 'react-bootstrap';
 
 
 class Header extends React.Component {
@@ -11,7 +12,7 @@ class Header extends React.Component {
 
     // set the initial component state
     this.state = {
-      SiteText: 'Readit',
+      SiteText: 'RI',
       loginText: 'Log In',
       signupText: 'Sign up',
       userWelcomeText: 'Hello ',
@@ -48,7 +49,7 @@ class Header extends React.Component {
 
             <div className="top-bar-left">
 
-                  {this.state.userWelcomeText} {JSON.parse(localStorage.getItem('usrname')).name}!
+              {/*{this.state.userWelcomeText} {JSON.parse(localStorage.getItem('usrname')).name}!*/}
 
             </div>  
             ):
