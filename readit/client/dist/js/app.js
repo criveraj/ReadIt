@@ -57133,11 +57133,11 @@ var Style = {
   background: "transparent",
   padding: "20px",
   margin: "20px"
-
 };
 
 var resultStyle = {
   color: "purple",
+  padding: "20px",
   border: "1px solid green"
 };
 
