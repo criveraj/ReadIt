@@ -38034,7 +38034,8 @@ var Dashboard = function Dashboard(_ref) {
       subtitle: ''
     }),
     secretData && _react2.default.createElement(_Card.CardText, { style: { fontSize: '18px', color: 'green' } }),
-    _react2.default.createElement(_SearchBarContainer2.default, null)
+    _react2.default.createElement(_SearchBarContainer2.default, null),
+    _react2.default.createElement(_SearchResultContainer2.default, null)
   );
 };
 
@@ -38131,11 +38132,6 @@ var SearchResultContainer = function (_React$Component) {
       return _react2.default.createElement(
         "div",
         null,
-        _react2.default.createElement(_Search2.default, {
-          search: this.state.search,
-          handleFormSubmit: this.handleFormSubmit,
-          handleInputChange: this.handleInputChange
-        }),
         _react2.default.createElement(_Results2.default, { results: this.state.results })
       );
     }
