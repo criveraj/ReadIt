@@ -89,9 +89,11 @@ ul {
   float: left;
   padding: 5px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .form-group button {
+  clear: both;
   background-color: #00bcd4;
   color: white;
   border: none;
@@ -99,3 +101,4 @@ ul {
   padding-bottom: 5px;
   margin: 5px;
 }
+
