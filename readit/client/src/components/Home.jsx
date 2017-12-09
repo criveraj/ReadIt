@@ -59,7 +59,7 @@ class Home extends React.Component {
         {/* <CardTitle title="React Application" subtitle="This is the home page. Log in to see the hidden content" /> */}
         
           {/* <CardTitle title={maintitle} subtitle={subtitle} />   */}
-        
+        Readit
       </Card>):
       (
         <DashboardPage/>
