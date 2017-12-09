@@ -39882,7 +39882,7 @@ var Header = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Header.__proto__ || Object.getPrototypeOf(Header)).call(this, props));
 
     _this.state = {
-      SiteText: 'RI',
+      SiteText: 'ReadIt',
       loginText: 'Log In',
       signupText: 'Sign Up',
       userWelcomeText: 'Hello ',
@@ -56062,7 +56062,7 @@ var SearchBarContainer = function (_React$Component) {
 
     // When this component mounts, search the Giphy API for pictures of kittens
     value: function componentDidMount() {
-      this.searchBestSeller("heartless");
+      this.searchBestSeller("");
     }
   }, {
     key: "searchBestSeller",
@@ -56180,14 +56180,14 @@ var _index2 = _interopRequireDefault(_index);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Style = {
-  background: "#eee",
+  background: "transparent",
   padding: "20px",
   margin: "20px"
-
 };
 
 var resultStyle = {
   color: "purple",
+  padding: "20px",
   border: "1px solid green"
 };
 

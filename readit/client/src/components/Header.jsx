@@ -12,7 +12,7 @@ class Header extends React.Component {
 
     // set the initial component state
     this.state = {
-      SiteText: 'RI',
+      SiteText: 'ReadIt',
       loginText: 'Log In',
       signupText: 'Sign Up',
       userWelcomeText: 'Hello ',
